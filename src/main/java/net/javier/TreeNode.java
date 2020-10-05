@@ -2,33 +2,33 @@ package net.javier;
 
 public class TreeNode {
 
-    private TreeNode nodeLeft;
+    private TreeNode left;
 
-    private TreeNode nodeRight;
+    private TreeNode right;
 
     private int value;
 
 
     public TreeNode(TreeNode nodeLeft, TreeNode nodeRight, int value) {
-        this.nodeLeft = nodeLeft;
-        this.nodeRight = nodeRight;
+        this.left = nodeLeft;
+        this.right = nodeRight;
         this.value = value;
     }
 
     public TreeNode getNodeLeft() {
-        return nodeLeft;
+        return left;
     }
 
     public void setNodeLeft(TreeNode nodeLeft) {
-        this.nodeLeft = nodeLeft;
+        this.left = nodeLeft;
     }
 
     public TreeNode getNodeRight() {
-        return nodeRight;
+        return right;
     }
 
     public void setNodeRight(TreeNode nodeRight) {
-        this.nodeRight = nodeRight;
+        this.right = nodeRight;
     }
 
     public int getValue() {
